@@ -68,7 +68,7 @@ print("\tLowest grade: {}".format(studentGrade[-1]))
 print("\tAverage grade: {}".format(sum(studentGrade)/len(studentGrade)))
 
 print(f"\nYour new average grade would be {sum(studentGrade)/len(studentGrade)} compared to the original average of {orgAverage}!")
-print(f"That is a change of {(sum(studentGrade)/len(studentGrade))-orgAverage} points!")
+print(f"That is a change of {round((sum(studentGrade)/len(studentGrade))-orgAverage,2)} points!")
 
 print("\nToo bad your original grades are still the same!")
 print(orgStudentGrade)
